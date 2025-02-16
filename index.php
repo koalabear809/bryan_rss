@@ -117,6 +117,7 @@ if($params['path'] === "/") {
         'nav',
         'img',
         'a',
+        'footer',
     ];
 
     $body = $domdoc->getElementsByTagName('body')->item(0);
@@ -127,6 +128,7 @@ if($params['path'] === "/") {
             $tag->parentNode->removeChild($tag);
         }
     }
+
 
     $article = $domdoc->saveHTML($body);
 
