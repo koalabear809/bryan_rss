@@ -104,57 +104,57 @@ if($params['path'] === "/") {
 
 } else if ($params['path'] === "/article") {
     $url = $_GET['url'];
-    $contents = file_get_contents($url);
-    file_put_contents("test.html", $contents);
+    $contents = @file_get_contents($url);
+    if($contents === false) {
+        $article = "<br><br>Unable to display article contents";
+    } else {
+        libxml_use_internal_errors(true);
+        $domdoc = new DOMDocument();
+        $htmldoc = $domdoc->loadHTML($contents);
 
-    libxml_use_internal_errors(true);
-    $domdoc = new DOMDocument();
-    $htmldoc = $domdoc->loadHTML($contents);
+        //- get body
+        $stripped_tags = [
+            'style',
+            'script',
+            'noscript',
+            'nav',
+            'img',
+            'a',
+            'footer',
+            'link',
+            'iframe',
+            'section',
+            'svg',
+            'input',
+            'textarea',
+            'button',
+            'head',
+        ];
 
-    //- get body
-    $stripped_tags = [
-        'style',
-        'script',
-        'noscript',
-        'nav',
-        'img',
-        'a',
-        'footer',
-        'link',
-        'iframe',
-        'section',
-        'svg',
-        'input',
-        'textarea',
-        'button',
-        'head',
-    ];
+        foreach($stripped_tags as $tag) {
+            $tags = $domdoc->getElementsByTagName($tag);
+            $_tags = [];
+            foreach($tags as $tag) {
+                $_tags[] = $tag;
+            }
 
-    foreach($stripped_tags as $tag) {
-        $tags = $domdoc->getElementsByTagName($tag);
-        $_tags = [];
-        foreach($tags as $tag) {
-            $_tags[] = $tag;
+            foreach($_tags as $tag) {
+                $tag->parentNode->removeChild($tag);
+            }
         }
 
-        foreach($_tags as $tag) {
-            $tag->parentNode->removeChild($tag);
+
+        foreach($stripped_tags as $tag) {
+            $tags = $domdoc->getElementsByTagName($tag);
+            foreach($tags as $tag) {
+                $tag->parentNode->removeChild($tag);
+            }
         }
+
+        $article = $domdoc->saveHTML();
     }
-
-
-    foreach($stripped_tags as $tag) {
-        $tags = $domdoc->getElementsByTagName($tag);
-        foreach($tags as $tag) {
-            $tag->parentNode->removeChild($tag);
-        }
-    }
-
-    $article = $domdoc->saveHTML();
-
     $title = "<a href={$url}>{$url}</a>";
     $output = $html->output($title . $article);
-
 } else {
     //- 404
     echo "404";
