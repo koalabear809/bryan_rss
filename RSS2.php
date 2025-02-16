@@ -22,6 +22,9 @@ class RSS2 implements IRSS{
 
     public function get_title() {
         $title = (string) $this->xml->channel->title;
+        if($title === "") {
+            $title = (string) $this->xml->channel->ttl;
+        }
 
         return $title;
     }
