@@ -18,6 +18,8 @@ $params = parse_url($uri);
 
 $output = '';
 
+var_dump($params);
+
 if($params['path'] === "/") {
     //- home
     echo $html->output('');
