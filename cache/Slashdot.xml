@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:admin="http://webns.net/mvcb/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" url="http://rss.slashdot.org/Slashdot/slashdotMain" last_refresh="1739734964">
+
+<channel rdf:about="https://slashdot.org/">
+<title>Slashdot</title>
+<link>https://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright Slashdot Media. All Rights Reserved.</dc:rights>
+<dc:date>2025-02-16T19:33:10+00:00</dc:date>
+<dc:publisher>Slashdot Media</dc:publisher>
+<dc:creator>feedback@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://science.slashdot.org/story/25/02/16/1850213/time-flows-forward-or-backward-at-quantum-levels-researchers-suggest?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://slashdot.org/story/25/02/15/0412246/what-if-people-like-ai-generated-art-better?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/25/02/16/0346210/lawsuit-accuses-meta-of-training-ai-on-torrented-82tb-dataset-of-pirated-books?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/25/02/16/0241242/amazon-tests-robots-for-automating-fulfillment-centers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/25/02/16/0040252/alleged-ceo-shooter-luigi-mangione-raises-297k-online?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://developers.slashdot.org/story/25/02/16/0332258/are-fast-programming-languages-gaining-in-popularity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://apple.slashdot.org/story/25/02/16/0138205/ai-bugs-could-delay-upgrades-for-both-siri-and-alexa?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://ask.slashdot.org/story/25/02/15/2047258/ask-slashdot-what-would-it-take-for-you-to-trust-an-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/25/02/16/007234/despite-plans-for-ai-powered-search-reddits-stock-fell-14-this-week?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://it.slashdot.org/story/25/02/15/2244220/chinas-salt-typhoon-hackers-continue-to-breach-telecoms-despite-us-sanctions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/25/02/15/1949206/the-worlds-most-printed-3d-model-3dbenchy-is-now-public-domain?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://it.slashdot.org/story/25/02/15/1716204/americas-office-occupancy-rates-drop-by-double-digits---and-more-in-san-francisco?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://apple.slashdot.org/story/25/02/15/0610248/apple-invites-its-users-into-major-years-long-health-study?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://games.slashdot.org/story/25/02/15/053254/bored-with-chess-magnus-carlsen-wants-to-remake-the-game?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+  <rdf:li rdf:resource="https://slashdot.org/story/25/02/15/0351257/mass-theft-thousands-of-artists-call-for-ai-art-auction-to-be-cancelled?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+ </rdf:Seq>
+</items>
+<image rdf:resource="https://a.fsdn.com/sd/topics/topicslashdot.gif"/>
+<textinput rdf:resource="https://slashdot.org/search.pl"/>
+</channel>
+<image rdf:about="https://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>https://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>https://slashdot.org/</link>
+</image>
+<item rdf:about="https://science.slashdot.org/story/25/02/16/1850213/time-flows-forward-or-backward-at-quantum-levels-researchers-suggest?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Time Flows Forward or Backward At Quantum Levels, Researchers Suggest</title>
+<link>https://science.slashdot.org/story/25/02/16/1850213/time-flows-forward-or-backward-at-quantum-levels-researchers-suggest?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>"What if time is not as fixed as we thought?" That's the question raised in an announcement from the University of Surrey. 
+
+"Imagine that instead of flowing in one direction &amp;mdash; from past to future &amp;mdash; time could flow forward or backward due to processes taking place at the quantum level."
+
+This is the thought-provoking discovery made by researchers at the University of Surrey, as a new study reveals that opposing arrows of time can theoretically emerge from certain quantum systems. For centuries, scientists have puzzled over the arrow of time &amp;mdash; the idea that time flows irreversibly from past to future. While this seems obvious in our experienced reality, the underlying laws of physics do not inherently favour a single direction. Whether time moves forward or backwards, the equations remain the same.... 
+
+This discovery provided a mathematical foundation for the idea that time-reversal symmetry still holds in open quantum systems &amp;mdash; suggesting that time's arrow may not be as fixed as we experience it... The research offers a fresh perspective on one of the biggest mysteries in physics. Understanding the true nature of time could have profound implications for quantum mechanics, cosmology and beyond. 
+The university's announcement includes this quote from co-author Thomas Guff, a research fellow in quantum thermodynamics. 
+
+"The surprising part of this project was that even after making the standard simplifying assumption to our equations describing open quantum systems, the equations still behaved the same way whether the system was moving forwards or backwards in time. When we carefully worked through the maths, we found this behaviour had to be the case because a key part of the equation, the 'memory kernel,' is symmetrical in time." 
+
+
+And their research reminds readers that "the fundamental laws of physics in both the classical and the quantum realms do not manifest any intrinsic arrow of time. Newton's equations are time-reversal symmetric, as well as Schr&amp;ouml;dinger's equation. As a consequence, backward-in-time motion is equally possible as forward-in-time motion... Our findings are consistent with the second law of thermodynamics and emphasise the distinction between the concepts of irreversibility and time-reversal symmetry."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Time+Flows+Forward+or+Backward+At+Quantum+Levels%2C+Researchers+Suggest%3A+https%3A%2F%2Fscience.slashdot.org%2Fstory%2F25%2F02%2F16%2F1850213%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F25%2F02%2F16%2F1850213%2Ftime-flows-forward-or-backward-at-quantum-levels-researchers-suggest%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/25/02/16/1850213/time-flows-forward-or-backward-at-quantum-levels-researchers-suggest?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611907&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-16T18:53:00+00:00</dc:date>
+<dc:subject>science</dc:subject>
+<slash:department>quantum-realms</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>5</slash:comments>
+<slash:hit_parade>5,5,5,5,0,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://slashdot.org/story/25/02/15/0412246/what-if-people-like-ai-generated-art-better?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>What If People Like AI-Generated Art Better?</title>
+<link>https://slashdot.org/story/25/02/15/0412246/what-if-people-like-ai-generated-art-better?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Christie's auction house notes that an AI-generated "portrait" of an 18th-century French gentleman recently sold for $432,500. (One member of the Paris-based collective behind the work says "we found that portraits provided the best way to illustrate our point, which is that algorithms are able to emulate creativity.") 
+
+But the blog post from Christie's goes on to acknowledge that AI researchers "are still addressing the fundamental question of whether the images produced by their networks can be called art at all."
+
+. One way to do that, surely, is to conduct a kind of visual Turing test, to show the output of the algorithms to human evaluators, flesh-and-blood discriminators, and ask if they can tell the difference. 
+"Yes, we have done that," says Ahmed Elgammal [director of the Art and Artificial Intelligence Lab at Rutgers University in New Jersey]. "We mixed human-generated art and art from machines, and posed questions &amp;mdash; direct ones, such as 'Do you think this painting was produced by a machine or a human artist?' and also indirect ones such as, 'How inspiring do you find this work?'. We measured the difference in responses towards the human art and the machine art, and found that there is very little difference. Actually, some people are more inspired by the art that is done by machine." 
+Can such a poll constitute proof that an algorithm is capable of producing indisputable works of art? Perhaps it can &amp;mdash; if you define a work of art as an image produced by an intelligence with an aesthetic intent. But if you define art more broadly as an attempt to say something about the wider world, to express one's own sensibilities and anxieties and feelings, then AI art must fall short, because no machine mind can have that urge &amp;mdash; and perhaps never will. 
+
+This also begs the question: who gets credit for the resulting work. The AI, or the creator of its algorithm... 
+
+Or can the resulting work be considered a "conceptual art" collaboration &amp;mdash; taking place between a human and an algorithm?&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=What+If+People+Like+AI-Generated+Art+Better%3F%3A+https%3A%2F%2Fslashdot.org%2Fstory%2F25%2F02%2F15%2F0412246%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fslashdot.org%2Fstory%2F25%2F02%2F15%2F0412246%2Fwhat-if-people-like-ai-generated-art-better%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://slashdot.org/story/25/02/15/0412246/what-if-people-like-ai-generated-art-better?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23610751&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-16T17:34:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>shock-of-the-new</slash:department>
+<slash:section>slashdot</slash:section>
+<slash:comments>44</slash:comments>
+<slash:hit_parade>44,43,40,32,7,2,1</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/25/02/16/0346210/lawsuit-accuses-meta-of-training-ai-on-torrented-82tb-dataset-of-pirated-books?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Lawsuit Accuses Meta Of Training AI On Torrented 82TB Dataset Of Pirated Books</title>
+<link>https://yro.slashdot.org/story/25/02/16/0346210/lawsuit-accuses-meta-of-training-ai-on-torrented-82tb-dataset-of-pirated-books?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>"Meta is involved in a class action lawsuit alleging copyright infringement, a claim the company disputes..." writes the tech news site Hot Hardware. 
+
+But the site adds that newly unsealed court documents "reveal that Meta allegedly used a minimum of 81.7TB of illegally torrented data sourced from shadow libraries to train its AI models."
+
+Internal emails further show that Meta employees expressed concerns about this practice. Some employees voiced strong ethical objections, with one noting that using content from sites like LibGen, known for distributing copyrighted material, would be unethical. A research engineer with Meta, Nikolay Bashlykov, also noted that "torrenting from a corporate laptop doesn't feel right," highlighting his discomfort surrounding the practice. 
+
+Additionally, the documents suggest that these concerns, including discussions about using data from LibGen, reached CEO Mark Zuckerberg, who may have ultimately approved the activity. Furthermore, the documents showed that despite these misgivings, employees discussed using VPNs to mask Meta's IP address to create anonymity, enabling them to download and share torrented data without it being easily traced back to the company's network.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Lawsuit+Accuses+Meta+Of+Training+AI+On+Torrented+82TB+Dataset+Of+Pirated+Books%3A+https%3A%2F%2Fyro.slashdot.org%2Fstory%2F25%2F02%2F16%2F0346210%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F25%2F02%2F16%2F0346210%2Flawsuit-accuses-meta-of-training-ai-on-torrented-82tb-dataset-of-pirated-books%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/25/02/16/0346210/lawsuit-accuses-meta-of-training-ai-on-torrented-82tb-dataset-of-pirated-books?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611477&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-16T16:34:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>Meta-commentary</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>20</slash:comments>
+<slash:hit_parade>20,20,18,16,6,4,3</slash:hit_parade>
+</item>
+<item rdf:about="https://hardware.slashdot.org/story/25/02/16/0241242/amazon-tests-robots-for-automating-fulfillment-centers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Amazon Tests Robots For Automating Fulfillment Centers</title>
+<link>https://hardware.slashdot.org/story/25/02/16/0241242/amazon-tests-robots-for-automating-fulfillment-centers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Yahoo Finance shares an interesting prediction. Amazon has an "under-the-radar robot push" that "could boost its profit margins big-time, Morgan Stanley managing director Brian Nowak said."
+
+
+Nowak said Amazon has quietly developed six significant next-generation fulfillment centers in the past three years that bring automation front and center... Amazon now has industrial robots that can increase efficiencies across the storage, inventory management, pick and packing, and sorting order fulfillment processes. 
+Fulfillment costs make up about 20% of Amazon's retail revenue, so he reasoned that automation could have a significant impact on long-term operating profit potential. Nowak says if 30% to 40% of Amazon's US units were fulfilled through next-generation robotics-enabled warehouses by 2030, it could lead to $10 billion-plus of savings... The investments in robots may already be paying off. Amazon's North America retail operating margins on a trailing 12-month basis have risen for five straight quarters. North America operating margins improved to 6.2% from 4.6% a year ago. 
+
+Nowak made the remarks on a Yahoo Finance podcast (at the top of their article) after touring one of Amazon's robot-enhanced sites in Louisiana. He believes robotics can drive down Amazon's costs compared to other retailers like Target (which he sees as lagging behind Amazon on robotics). 
+
+Meanwhile workers at an Amazon facility in North Carolina held a vote Saturday on whether to unionize. But roughly 75% of the workers voted against unionization.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Amazon+Tests+Robots+For+Automating+Fulfillment+Centers%3A+https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F25%2F02%2F16%2F0241242%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F25%2F02%2F16%2F0241242%2Famazon-tests-robots-for-automating-fulfillment-centers%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/25/02/16/0241242/amazon-tests-robots-for-automating-fulfillment-centers?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611453&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-16T15:34:00+00:00</dc:date>
+<dc:subject>business</dc:subject>
+<slash:department>wild-robots</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>18</slash:comments>
+<slash:hit_parade>18,18,16,15,4,2,1</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/25/02/16/0040252/alleged-ceo-shooter-luigi-mangione-raises-297k-online?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Alleged 'CEO Shooter' Luigi Mangione Raises $297K Online</title>
+<link>https://yro.slashdot.org/story/25/02/16/0040252/alleged-ceo-shooter-luigi-mangione-raises-297k-online?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Luigi Mangione faces first-degree murder charges. On Valentine's Day he posted his first public comments online, reports People magazine, with Mangione saying he's grateful for the support he's receiving:
+
+Earlier this week, Mangione accepted $297,000 in donations to cover his legal bills from the December 4 Legal Committee, which is stewarding a fundraiser on GiveSendGo for his legal defense, according to a post shared by the group. (A source with knowledge of the situation confirmed to PEOPLE that the post was genuine.) The committee &amp;mdash; named after the death date of Thompson &amp;mdash; said the donations were offered by over 10,000 individual supporters. Mangione's lead attorney, Karen Friedman Agnifilo, told the committee that Mangione "very much appreciates the outpouring of support...." 
+
+His federal murder charges could land him the death penalty, and he also faces state murder charges that accuse him of committing an act of terrorism.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Alleged+'CEO+Shooter'+Luigi+Mangione+Raises+%24297K+Online%3A+https%3A%2F%2Fyro.slashdot.org%2Fstory%2F25%2F02%2F16%2F0040252%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F25%2F02%2F16%2F0040252%2Falleged-ceo-shooter-luigi-mangione-raises-297k-online%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/25/02/16/0040252/alleged-ceo-shooter-luigi-mangione-raises-297k-online?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611375&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-16T12:34:00+00:00</dc:date>
+<dc:subject>crime</dc:subject>
+<slash:department>lawyers-guns-and-money</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>172</slash:comments>
+<slash:hit_parade>172,165,139,126,24,7,2</slash:hit_parade>
+</item>
+<item rdf:about="https://developers.slashdot.org/story/25/02/16/0332258/are-fast-programming-languages-gaining-in-popularity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Are Fast Programming Languages Gaining in Popularity?</title>
+<link>https://developers.slashdot.org/story/25/02/16/0332258/are-fast-programming-languages-gaining-in-popularity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>In January the TIOBE Index (estimating programming language popularity) declared Python their language of the year. (Though it was already #1 in their rankings, it had showed a 9.3% increase in their ranking system, notes InfoWorld.) TIOBE CEO Paul Jansen says this reflects how easy Python is to learn, adding that "The demand for new programmers is still very high" (and that "developing applications completely in AI is not possible yet.") 
+
+In fact on February's version of the index, the top ten looks mostly static. The only languages dropping appear to be very old languages. Over the last 12 months C and PHP have both fallen on the index &amp;mdash; C from the #2 to the #4 spot, and PHP from #10 all the way to #14. (Also dropping is Visual Basic, which fell from #9 to #10.) 
+
+But TechRepublican cites another factor that seems to be affecting the rankings: language speed.
+
+
+Fast programming languages are gaining popularity, TIOBE CEO Paul Jansen said in the TIOBE Programming Community Index in February. Fast programming languages he called out include C++ [#2], Go [#8], and Rust [#13 &amp;mdash; up from #18 a year ago]. 
+
+Also, according to the updated TIOBE rankings... 
+- C++ held onto its place at second from the top of the leaderboard.
+- Mojo and Zig are following trajectories likely to bring them into the top 50, and reached #51 and #56 respectively in February. 
+
+"Now that the world needs to crunch more and more numbers per second, and hardware is not evolving fast enough, speed of programs is getting important. Having said this, it is not surprising that the fast programming languages are gaining ground in the TIOBE index," Jansen wrote. The need for speed helped Mojo [#51] and Zig [#56] rise... 
+
+Rust reached its all-time high in the proprietary points system (1.47%.), and Jansen expects Go to be a common sight in the top 10 going forward.
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Are+Fast+Programming+Languages+Gaining+in+Popularity%3F%3A+https%3A%2F%2Fdevelopers.slashdot.org%2Fstory%2F25%2F02%2F16%2F0332258%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fdevelopers.slashdot.org%2Fstory%2F25%2F02%2F16%2F0332258%2Fare-fast-programming-languages-gaining-in-popularity%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://developers.slashdot.org/story/25/02/16/0332258/are-fast-programming-languages-gaining-in-popularity?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611475&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-16T08:34:00+00:00</dc:date>
+<dc:subject>python</dc:subject>
+<slash:department>run-time</slash:department>
+<slash:section>developers</slash:section>
+<slash:comments>105</slash:comments>
+<slash:hit_parade>105,105,101,95,19,6,6</slash:hit_parade>
+</item>
+<item rdf:about="https://apple.slashdot.org/story/25/02/16/0138205/ai-bugs-could-delay-upgrades-for-both-siri-and-alexa?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>AI Bugs Could Delay Upgrades for Both Siri and Alexa</title>
+<link>https://apple.slashdot.org/story/25/02/16/0138205/ai-bugs-could-delay-upgrades-for-both-siri-and-alexa?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Bloomberg reports that Apple's long-promised overhaul for Siri "is facing engineering problems and software bugs, threatening to postpone or limit its release, according to people with knowledge of the matter...."
+
+Last June, Apple touted three major enhancements coming to Siri: 
+
+- the ability to tap into a customer's data to better answer queries and take actions.
+- a new system that would let the assistant more precisely control apps.
+- the capability to see what's currently on a device's screen and use that context to better serve users.... 
+
+The goal is to ultimately offer a more versatile Siri that can seamlessly tap into customers' information and communication. For instance, users will be able to ask for a file or song that they discussed with a friend over text. Siri would then automatically retrieve that item. Apple also has demonstrated the ability for Siri to quickly locate someone's driver's license number by reviewing their photos... Inside Apple, many employees testing the new Siri have found that these features don't yet work consistently... 
+The control enhancements &amp;mdash; an upgraded version of something called App Intents &amp;mdash; are central to the operation of the company's upcoming smart home hub. That product, an AI device for controlling smart home appliances and FaceTime, is slated for release later this year. 
+
+And Amazon is also struggling with an AI upgrade for its digital assistant, reports the Washington Post:
+The "smarter and more conversational" version of Alexa will not be available until March 31 or later, the employee said, at least a year and a half after it was initially announced in response to competition from OpenAI's ChatGPT. Internal messages seen by The Post confirmed the launch was originally scheduled for this month but was subsequently moved to the end of March... According to internal documents seen by The Post, new features of the subscriber-only, AI-powered Alexa could include the ability to adopt a personality, recall conversations, order takeout or call a taxi. Some of the new Alexa features are similar to Alexa abilities that were previously available free through partnerships with companies like Grubhub and Uber... 
+The AI-enhanced version of Alexa in development has been repeatedly delayed due to problems with incorrect answers, the employee working on the launch told The Post. As a popular product that is a decade old, the Alexa brand is valuable, and the company is hesitant to risk customer trust by launching a product that is not reliable, the person said.
+
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=AI+Bugs+Could+Delay+Upgrades+for+Both+Siri+and+Alexa%3A+https%3A%2F%2Fapple.slashdot.org%2Fstory%2F25%2F02%2F16%2F0138205%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fapple.slashdot.org%2Fstory%2F25%2F02%2F16%2F0138205%2Fai-bugs-could-delay-upgrades-for-both-siri-and-alexa%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://apple.slashdot.org/story/25/02/16/0138205/ai-bugs-could-delay-upgrades-for-both-siri-and-alexa?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611415&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-16T05:34:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>not-ready-for-prime-time</slash:department>
+<slash:section>apple</slash:section>
+<slash:comments>22</slash:comments>
+<slash:hit_parade>22,22,21,19,1,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://ask.slashdot.org/story/25/02/15/2047258/ask-slashdot-what-would-it-take-for-you-to-trust-an-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Ask Slashdot: What Would It Take For You to Trust an AI?</title>
+<link>https://ask.slashdot.org/story/25/02/15/2047258/ask-slashdot-what-would-it-take-for-you-to-trust-an-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Long-time Slashdot reader shanen has been testing AI clients. (They report that China's DeepSeek "turned out to be extremely good at explaining why I should not trust it. Every computer security problem I ever thought of or heard about and some more besides.") 
+
+Then they wondered if there's also government censorship:
+
+It's like the accountant who gets asked what 2 plus 2 is. After locking the doors and shading all the windows, the accountant whispers in your ear: "What do you want it to be...?" So let me start with some questions about DeepSeek in particular. Have you run it locally and compared the responses with the website's responses? My hypothesis is that your mileage should differ... 
+
+It's well established that DeepSeek doesn't want to talk about many "political" topics. Is that based on a distorted model of the world? Or is the censorship implemented in the query interface after the model was trained? My hypothesis is that it must have been trained with lots of data because the cost of removing all of the bad stuff would have been prohibitive... Unless perhaps another AI filtered the data first? 
+But their real question is: what would it take to trust an AI? "Trust" can mean different things, including data-collection policies. ("I bet most of you trust Amazon and Amazon's secret AIs more than you should..." shanen suggests.) Can you use an AI system without worrying about its data-retention policies?
+ 
+
+And they also ask how many Slashdot readers have read Ken Thompson's "Reflections on Trusting Trust", which raises the question of whether you can ever trust code you didn't create yourself. So is there any way an AI system can assure you its answers are accurate and trustworthy, and that it's safe to use? Share your own thoughts and experiences in the comments. 
+What would it take for you to trust an AI?&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Ask+Slashdot%3A+What+Would+It+Take+For+You+to+Trust+an+AI%3F%3A+https%3A%2F%2Fask.slashdot.org%2Fstory%2F25%2F02%2F15%2F2047258%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fask.slashdot.org%2Fstory%2F25%2F02%2F15%2F2047258%2Fask-slashdot-what-would-it-take-for-you-to-trust-an-ai%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://ask.slashdot.org/story/25/02/15/2047258/ask-slashdot-what-would-it-take-for-you-to-trust-an-ai?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611241&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-16T02:34:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>trust-issues</slash:department>
+<slash:section>askslashdot</slash:section>
+<slash:comments>148</slash:comments>
+<slash:hit_parade>148,147,140,123,32,9,4</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/25/02/16/007234/despite-plans-for-ai-powered-search-reddits-stock-fell-14-this-week?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Despite Plans for AI-Powered Search, Reddit's Stock Fell 14% This Week</title>
+<link>https://tech.slashdot.org/story/25/02/16/007234/despite-plans-for-ai-powered-search-reddits-stock-fell-14-this-week?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>"Reddit Answers" uses generative AI to answer questions using what past Reddittors have posted. Announced in December, Reddit now plans to integrate it into their search results, reports TechCrunch, with Reddit's CEO saying the idea has "incredible monetization potential." 
+
+And yet Reddit's stock fell 14% this week. CNBC's headline? "Reddit shares plunge after Google algorithm change contributes to miss in user numbers."
+
+
+A Google search algorithm change caused some "volatility" with user growth in the fourth quarter, but the company's search-related traffic has since recovered in the first quarter, Reddit CEO Steve Huffman said in a letter to shareholders. "What happened wasn't unusual &amp;mdash; referrals from search fluctuate from time to time, and they primarily affect logged-out users," Huffman wrote. "Our teams have navigated numerous algorithm updates and did an excellent job adapting to these latest changes effectively...." Reddit has said it is working to convince logged-out users to create accounts as logged-in users, which are more lucrative for its business. 
+
+
+As Yahoo Finance once pointed out, Reddit knew this day would come, acknowledging in its IPO filing that "changes in internet search engine algorithms and dynamics could have a negative impact on traffic for our website and, ultimately, our business." And in the last three months of 2024 Reddit's daily active users dropped, Yahoo Finance reported this week. But logged-in users increased by 400,000 &amp;mdash; while logged-out users dropped by 600,000 (their first drop in almost two years). 
+
+Marketwatch notes that analyst Josh Beck sees this as a buying opportunity for Reddit's stock:
+Beck pointed to comments from Reddit's management regarding a sharp recovery in daily active unique users. That was likely driven by Google benefiting from deeper Reddit crawling, by the platform uncollapsing comments in search results and by a potential benefit from spam-reduction algorithm updates, according to the analyst. "While the report did not clear our anticipated bar, we walk away encouraged by international upside," he wrote.
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Despite+Plans+for+AI-Powered+Search%2C+Reddit's+Stock+Fell+14%25+This+Week%3A+https%3A%2F%2Ftech.slashdot.org%2Fstory%2F25%2F02%2F16%2F007234%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F25%2F02%2F16%2F007234%2Fdespite-plans-for-ai-powered-search-reddits-stock-fell-14-this-week%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/25/02/16/007234/despite-plans-for-ai-powered-search-reddits-stock-fell-14-this-week?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611357&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-16T00:09:00+00:00</dc:date>
+<dc:subject>social</dc:subject>
+<slash:department>snoos-you-lose</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>49</slash:comments>
+<slash:hit_parade>49,49,44,38,5,3,2</slash:hit_parade>
+</item>
+<item rdf:about="https://it.slashdot.org/story/25/02/15/2244220/chinas-salt-typhoon-hackers-continue-to-breach-telecoms-despite-us-sanctions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>China's 'Salt Typhoon' Hackers Continue to Breach Telecoms Despite US Sanctions</title>
+<link>https://it.slashdot.org/story/25/02/15/2244220/chinas-salt-typhoon-hackers-continue-to-breach-telecoms-despite-us-sanctions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>"Security researchers say the Chinese government-linked hacking group, Salt Typhoon, is continuing to compromise telecommunications providers," reports TechCrunch, "despite the recent sanctions imposed by the U.S. government on the group." 
+
+TechRadar reports that the Chinese state-sponsored threat actor is "hitting not just American organizations, but also those from the UK, South Africa, and elsewhere around the world."
+
+
+
+
+The latest intrusions were spotted by cybersecurity researchers from Recorded Future, which said the group is targeting internet-exposed web interfaces of Cisco's IOS software that powers different routers and switches. These devices have known vulnerabilities that the threat actors are actively exploiting to gain initial access, root privileges, and more. More than 12,000 Cisco devices were found connected to the wider internet, and exposed to risk, Recorded Future further explained. However, Salt Typhoon is focusing on a "smaller subset" of telecoms and university networks. 
+
+"The hackers attempted to exploit vulnerabilities in at least 1,000 Cisco devices," reports NextGov, "allowing them to access higher-level privileges of the hardware and change their configuration settings to allow for persistent access to the networks they're connected on... Over half of the Cisco appliances targeted by Salt Typhoon were located in the U.S., South America and India, with the rest spread across more than 100 countries."
+Between December and January, the unit, widely known as Salt Typhoon, "possibly targeted" &amp;mdash; based on devices that were accessed &amp;mdash; offices in the University of California, Los Angeles, California State University, Loyola Marymount University and Utah Tech University, according to a report from cyber threat intelligence firm Recorded Future... The Cisco devices were mainly associated with telecommunications firms, but 13 of them were linked to the universities in the U.S. and some in other nations... "Often involved in cutting-edge research, universities are prime targets for Chinese state-sponsored threat activity groups to acquire valuable research data and intellectual property," said the report, led by the company's Insikt Group, which oversees its threat research. 
+
+The cyberspies also compromised Cisco platforms at a U.S.-based affiliate of a prominent United Kingdom telecom operator and a South African provider, both unnamed, the findings added. The hackers also "carried out a reconnaissance of multiple IP addresses" owned by Mytel, a telecom operator based in Myanmar... 
+
+"In 2023, Cisco published a security advisory disclosing multiple vulnerabilities in the web UI feature in Cisco IOS XE software," a Cisco spokesperson said in a statement. "We continue to strongly urge customers to follow recommendations outlined in the advisory and upgrade to the available fixed software release."
+
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=China's+'Salt+Typhoon'+Hackers+Continue+to+Breach+Telecoms+Despite+US+Sanctions%3A+https%3A%2F%2Fit.slashdot.org%2Fstory%2F25%2F02%2F15%2F2244220%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fit.slashdot.org%2Fstory%2F25%2F02%2F15%2F2244220%2Fchinas-salt-typhoon-hackers-continue-to-breach-telecoms-despite-us-sanctions%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://it.slashdot.org/story/25/02/15/2244220/chinas-salt-typhoon-hackers-continue-to-breach-telecoms-despite-us-sanctions?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611317&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-15T22:47:00+00:00</dc:date>
+<dc:subject>china</dc:subject>
+<slash:department>open-door-policy</slash:department>
+<slash:section>it</slash:section>
+<slash:comments>40</slash:comments>
+<slash:hit_parade>40,40,37,34,9,5,2</slash:hit_parade>
+</item>
+<item rdf:about="https://hardware.slashdot.org/story/25/02/15/1949206/the-worlds-most-printed-3d-model-3dbenchy-is-now-public-domain?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>The World's Most Printed 3D Model, 3DBenchy, Is Now Public Domain</title>
+<link>https://hardware.slashdot.org/story/25/02/15/1949206/the-worlds-most-printed-3d-model-3dbenchy-is-now-public-domain?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Hackaday reports:
+
+Good news for everyone who cannot get enough from improbably shaped boats that get referred to as a bench: the current owner (NTI Group) of the copyright has announced that 3DBenchy has been released into the public domain. This comes not too long after Prusa's Printables website had begun to purge all derived models to adhere to the 'no derivatives' license. According to NTI, the removal of these derived models was not requested by NTI, but by a third-party report, unbeknownst to NTI or the original creator of the model. Recognizing its importance to the community, 3DBenchy can now be downloaded &amp;amp; modified freely. 
+
+
+NTI worked together with the original creator [Daniel Nor&amp;eacute;e] and former Creative Tools CEO [Paulo Kiefe] to transition 3DBenchy and the associated website to the public domain
+
+More details at Tom's Hardware and Fabbaloo.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=The+World's+Most+Printed+3D+Model%2C+3DBenchy%2C+Is+Now+Public+Domain%3A+https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F25%2F02%2F15%2F1949206%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F25%2F02%2F15%2F1949206%2Fthe-worlds-most-printed-3d-model-3dbenchy-is-now-public-domain%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/25/02/15/1949206/the-worlds-most-printed-3d-model-3dbenchy-is-now-public-domain?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611203&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-15T21:34:00+00:00</dc:date>
+<dc:subject>printer</dc:subject>
+<slash:department>toy-boat</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>19</slash:comments>
+<slash:hit_parade>19,19,18,18,5,3,1</slash:hit_parade>
+</item>
+<item rdf:about="https://it.slashdot.org/story/25/02/15/1716204/americas-office-occupancy-rates-drop-by-double-digits---and-more-in-san-francisco?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>America's Office-Occupancy Rates Drop by Double Digits - and More in San Francisco</title>
+<link>https://it.slashdot.org/story/25/02/15/1716204/americas-office-occupancy-rates-drop-by-double-digits---and-more-in-san-francisco?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>SFGate shares the latest data on America's office-occupancy rates:
+
+According to Placer.ai's January 2025 Office Index, office visits nationwide were 40.2% lower in January 2025 compared with pre-pandemic numbers from January 2019. 
+
+But San Francisco is dragging down the average, with a staggering 51.8% decline in office visits since January 2019 &amp;mdash; the weakest recovery of any major metro. Kastle's 10-City Daily Analysis paints an equally grim picture. From Jan. 23, 2025, to Jan. 28, 2025, even on its busiest day (Tuesday), San Francisco's office occupancy rate was just 53.7%, significantly lower than Houston's (74.8%) and Chicago's (70.4%). And on Friday, Jan. 24, office attendance in [San Francisco] was at a meager 28.5%, the worst of any major metro tracked... 
+
+
+Meanwhile, other cities are seeing much stronger rebounds. New York City is leading the return-to-office trend, with visits in January down just 19% from 2019 levels, while Miami saw a 23.5% decline, per Placer.ai data. 
+
+"Placer.ai uses cellphone location data to estimate foot traffic, while Kastle Systems measures badge swipes at office buildings with its security systems..."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=America's+Office-Occupancy+Rates+Drop+by+Double+Digits+-+and+More+in+San+Francisco%3A+https%3A%2F%2Fit.slashdot.org%2Fstory%2F25%2F02%2F15%2F1716204%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fit.slashdot.org%2Fstory%2F25%2F02%2F15%2F1716204%2Famericas-office-occupancy-rates-drop-by-double-digits---and-more-in-san-francisco%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://it.slashdot.org/story/25/02/15/1716204/americas-office-occupancy-rates-drop-by-double-digits---and-more-in-san-francisco?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23611123&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-15T20:34:00+00:00</dc:date>
+<dc:subject>usa</dc:subject>
+<slash:department>office-spaces</slash:department>
+<slash:section>it</slash:section>
+<slash:comments>86</slash:comments>
+<slash:hit_parade>86,85,72,65,18,11,7</slash:hit_parade>
+</item>
+<item rdf:about="https://apple.slashdot.org/story/25/02/15/0610248/apple-invites-its-users-into-major-years-long-health-study?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Apple Invites Its Users Into Major Years-Long Health Study</title>
+<link>https://apple.slashdot.org/story/25/02/15/0610248/apple-invites-its-users-into-major-years-long-health-study?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Can the iPhone, AirPods, or the Apple Watch play a role in improving health? Apple says they want to find out. 
+"In medical research, discoveries are often limited by the number of participants who can be recruited, the amount of data that can be captured, and the duration of a given study," the company said in a blog post this week. "But Apple devices expand the possibilities..."
+This new longitudinal, virtual study aims to understand how data from technology &amp;mdash; including Apple and third-party devices &amp;mdash; can be used to predict, detect, monitor, and manage changes in participants' health. Additionally, researchers will explore connections across different areas of health. 
+CNBC reports:
+
+
+The new study will likely influence future product development. Apple CEO Tim Cook previously said he believes health features will be the company's "most important contribution to mankind...." 
+
+The Apple Health Study will be available through the company's Research app, and participation is voluntary. Users will select each data type they are willing to share with researchers, and they can stop sharing or completely discontinue their participation at any time. Apple has no access to participants' identifiable information, the company said... The project will last at least five years and may expand beyond that. 
+A Harvard Medical School professor and cardiologist &amp;mdash; also a principal investigator on the Apple Health Study &amp;mdash; says "We've only just begun to scratch the surface of how technology can improve our understanding of human health."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Apple+Invites+Its+Users+Into+Major+Years-Long+Health+Study%3A+https%3A%2F%2Fapple.slashdot.org%2Fstory%2F25%2F02%2F15%2F0610248%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fapple.slashdot.org%2Fstory%2F25%2F02%2F15%2F0610248%2Fapple-invites-its-users-into-major-years-long-health-study%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://apple.slashdot.org/story/25/02/15/0610248/apple-invites-its-users-into-major-years-long-health-study?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23610799&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-15T19:34:00+00:00</dc:date>
+<dc:subject>medicine</dc:subject>
+<slash:department>keeps-the-doctor-away</slash:department>
+<slash:section>apple</slash:section>
+<slash:comments>14</slash:comments>
+<slash:hit_parade>14,14,12,10,1,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://games.slashdot.org/story/25/02/15/053254/bored-with-chess-magnus-carlsen-wants-to-remake-the-game?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Bored With Chess? Magnus Carlsen Wants to Remake the Game</title>
+<link>https://games.slashdot.org/story/25/02/15/053254/bored-with-chess-magnus-carlsen-wants-to-remake-the-game?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>"Magnus Carlsen, the world's top chess player, is bored of chess," the Washington Post wrote Friday:
+
+Carlsen has spent much of the past year appearing to dismiss the game he has mastered: It was no longer exciting to play, he told a podcast in March. In December, he withdrew from defending a world championship because he was penalized for wearing jeans to the tournament. 
+How would the world's best player spice up the game? Change the rules, and add a touch of reality TV. 
+
+Ten of the world's top players gathered in a German villa on the Baltic coast this week to play in the first tournament of a new chess circuit, the Freestyle Chess Grand Slam Tour, that Carlsen co-founded. The twist: The tour randomizes the starting positions of the chess board's most important pieces, so each game begins with the queen, rooks and knights in a jumble. [It's sometimes called "Chess960" or Fischer random chess &amp;mdash; with both players starting with the same arrangement of pieces.] Players have to adapt on the fly. Carlsen is backed by a cadre of investors who see a chance to dramatize chess with the theatrics of a television show. Players wear heart-rate monitors and give confession-booth interviews mid-match where they strategize and fret to the audience. Some purists are skeptical. So is the International Chess Federation, which sent a barrage of legal threats to Freestyle Chess before it launched this week's event. 
+At stake is a lucrative global market of hundreds of millions of chess players that has only continued to grow since the coronavirus pandemic launched a startling chess renaissance &amp;mdash; and, perhaps, the authority to decide if and how a centuries-old game should evolve... The format is an antidote to the classical game, where patterns and strategies have been so rigorously studied that it's hard to innovate, Carlsen said. "It's still possible to get a [competitive] game, but you have to sort of dig deeper and deeper," Carlsen said. "I just find that there's too little scope for creativity." 
+
+The article also includes this quote from American grand master Hikaru Nakamura who runs a chess YouTube channel with 2.7 million subscribers). "An integral part of regular chess is that when you play, you spend hours preparing your opening strategy before the game. But with Fischer Random ... it's a little bit looser and more enjoyable." And German entrepreneur Jan Henric Buettner (one of the investors) says they hope to bring the drama of Formula One racecars. ("Cameras mounted at table level peer up at each player during games," the article notes at one point.) 
+
+The first Freestyle Chess Grand Slam Tour (with a $750,000 prize pool) concluded Friday, according to the article, but "Carlsen did not play in it," the Post points out. "He was upset in the semifinals by German grand master Vincent Keymer." Carlsen's reaction? "I definitely find Freestyle harder." 
+
+But Chess.com reports that Carlsen will be back to playing regular chess very soon:
+
+Global esports powerhouse Team Liquid has announced the signings of not just one, but two superstars of chess. Five-time World Champion and world number-one Magnus Carlsen and the 2018 challenger, world number-two Fabiano Caruana will represent the club ahead of the 2025 Esports World Cup (EWC)... Carlsen and Caruana, fresh from competing in the Weissenhaus Freestyle Chess Grand Slam, will first represent Team Liquid in the $150,000 Chessable Masters, which begins on February 16 and serves as the first of two qualifying events in the 2025 Champions Chess Tour. The top-12 players from the tour qualify for the EWC. 
+
+In an announcement video Carlsen reportedly trolls the FIDE, according to Indian Express. "The announcement video sees Carlsen wear a Team Liquid jersey along with a jacket and jeans. He then asks: 'Do I have to change?' To this, someone responds: 'Don't worry, we're pretty chill in esports. Welcome to Team Liquid.'"&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Bored+With+Chess%3F+Magnus+Carlsen+Wants+to+Remake+the+Game%3A+https%3A%2F%2Fgames.slashdot.org%2Fstory%2F25%2F02%2F15%2F053254%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fgames.slashdot.org%2Fstory%2F25%2F02%2F15%2F053254%2Fbored-with-chess-magnus-carlsen-wants-to-remake-the-game%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://games.slashdot.org/story/25/02/15/053254/bored-with-chess-magnus-carlsen-wants-to-remake-the-game?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23610771&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-15T18:34:00+00:00</dc:date>
+<dc:subject>classicgames</dc:subject>
+<slash:department>king's-gambit</slash:department>
+<slash:section>games</slash:section>
+<slash:comments>69</slash:comments>
+<slash:hit_parade>69,66,62,58,6,3,0</slash:hit_parade>
+</item>
+<item rdf:about="https://slashdot.org/story/25/02/15/0351257/mass-theft-thousands-of-artists-call-for-ai-art-auction-to-be-cancelled?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>'Mass Theft': Thousands of Artists Call for AI Art Auction to be Cancelled</title>
+<link>https://slashdot.org/story/25/02/15/0351257/mass-theft-thousands-of-artists-call-for-ai-art-auction-to-be-cancelled?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader shared this report from the Guardian:
+
+Thousands of artists are urging the auction house Christie's to cancel a sale of art created with artificial intelligence, claiming the technology behind the works is committing "mass theft". The Augmented Intelligence auction has been described by Christie's as the first AI-dedicated sale by a major auctioneer and features 20 lots with prices ranging from $10,000 to $250,000... 
+The British composer Ed Newton-Rex, a key figure in the campaign by creative professionals for protection of their work and a signatory to the letter, said at least nine of the works appearing in the auction appeared to have used models trained on artists' work. However, other pieces in the auction do not appear to have used such models. 
+A spokesperson for Christie's said that "in most cases" the AI used to create art in the auction had been trained on the artists' "own inputs". 
+
+More than 6,000 people have now signed the letter, which states point-blank that "Many of the artworks you plan to auction were created using AI models that are known to be trained on copyrighted work without a license."
+
+These models, and the companies behind them, exploit human artists, using their work without permission or payment to build commercial AI products that compete with them. Your support of these models, and the people who use them, rewards and further incentivizes AI companies' mass theft of human artists' work. We ask that, if you have any respect for human artists, you cancel the auction. 
+
+Last week ARTnews spoke to Nicole Sales Giles, Christie's vice-president and director of digital art sales (before the open letter was published). And Giles insisted one of the major themes of the auction is "that AI is not a replacement for human creativity."
+"You can see a lot of human agency in all of these works," Giles said. "In every single work, you're seeing a collaboration between an AI model, a robot, or however the artist has chosen to incorporate AI. It is showing how AI is enhancing creativity and not becoming a substitute for it." 
+
+One of the auction's headline lots is a 12-foot-tall robot made by Matr Labs that is guided by artist Alexander Reben's AI model. It will paint a new section of a canvas live during the sale every time the work receives a bid. Reben told ARTnews that he understands the frustrations of artists regarding the AI debate, but he sees "AI as an incredible tool... AI models which are trained on public data are done so under the idea of 'fair use,' just as search engines once faced scrutiny for organizing book data (which was ultimately found to fall under fair use)," he said.... "AI expands creative potential, offering new ways to explore, remix, and evolve artistic expression rather than replace it. The future of art isn't about AI versus artists &amp;mdash; it's about how artists wield AI to push boundaries in ways we've never imagined before...." 
+
+Digital artist Jack Butcher has used the open letter to create a minted digital artwork called Undersigned Artists. On X he wrote that the work "takes a collective act of dissent &amp;mdash; an appeal to halt an AI art auction &amp;mdash; and turns it into the very thing it resists: a minted piece of digital art. The letter, originally a condemnation of AI-generated works trained on unlicensed human labor, now becomes part of the system it critiques." 
+
+Christie's will accept cryptocurrency payments for the majority of lots in the sale.
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status='Mass+Theft'%3A+Thousands+of+Artists+Call+for+AI+Art+Auction+to+be+Cancelled%3A+https%3A%2F%2Fslashdot.org%2Fstory%2F25%2F02%2F15%2F0351257%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fslashdot.org%2Fstory%2F25%2F02%2F15%2F0351257%2Fmass-theft-thousands-of-artists-call-for-ai-art-auction-to-be-cancelled%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://slashdot.org/story/25/02/15/0351257/mass-theft-thousands-of-artists-call-for-ai-art-auction-to-be-cancelled?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23610737&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2025-02-15T17:34:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>eye-of-the-beholder</slash:department>
+<slash:section>slashdot</slash:section>
+<slash:comments>77</slash:comments>
+<slash:hit_parade>77,77,64,54,14,3,1</slash:hit_parade>
+</item>
+<textinput rdf:about="https://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>https://slashdot.org/search.pl</link>
+</textinput>
+</rdf:RDF>
