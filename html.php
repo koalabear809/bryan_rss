@@ -102,6 +102,18 @@ class Html {
             text-decoration: none;
             color: #333;
         }
+
+        .rss-item {
+            margin: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .feed-name {
+            margin: 10px;
+            border-bottom: 1px solid #ccc;
+            color: #333;
+        }
         CSS;
 
         return $output;

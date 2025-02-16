@@ -82,7 +82,7 @@ if($params['path'] === "/") {
         }
 
         $list = implode("", $list);
-        $header = "<h1>{$name}</h1>";
+        $header = "<h1 class=\"feed-name\">{$name}</h1>";
         $output = $html->output($header . $list);
     } else {
         //- feeds
@@ -130,12 +130,10 @@ if($params['path'] === "/") {
         'head',
     ];
 
-    // $article = strip_tags($contents);
     foreach($stripped_tags as $tag) {
         $tags = $domdoc->getElementsByTagName($tag);
         $_tags = [];
         foreach($tags as $tag) {
-            // $tag->parentNode->removeChild($tag);
             $_tags[] = $tag;
         }
 
@@ -152,11 +150,7 @@ if($params['path'] === "/") {
         }
     }
 
-    // $body = $domdoc->getElementsByTagName('body')->item(0);
-    // $article = $domdoc->saveHTML($body);
     $article = $domdoc->saveHTML();
-
-    file_put_contents("test2.html", $article);
 
     $title = "<a href={$url}>{$url}</a>";
     $output = $html->output($title . $article);
