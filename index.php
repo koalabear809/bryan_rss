@@ -105,7 +105,9 @@ if($params['path'] === "/") {
 } else if ($params['path'] === "/article") {
     $url = $_GET['url'];
     $contents = file_get_contents($url);
+    file_put_contents("test.html", $contents);
 
+    libxml_use_internal_errors(true);
     $domdoc = new DOMDocument();
     $htmldoc = $domdoc->loadHTML($contents);
 
@@ -118,19 +120,43 @@ if($params['path'] === "/") {
         'img',
         'a',
         'footer',
+        'link',
+        'iframe',
+        'section',
+        'svg',
+        'input',
+        'textarea',
+        'button',
+        'head',
     ];
 
-    $body = $domdoc->getElementsByTagName('body')->item(0);
-
+    // $article = strip_tags($contents);
     foreach($stripped_tags as $tag) {
-        $tags = $body->getElementsByTagName($tag);
+        $tags = $domdoc->getElementsByTagName($tag);
+        $_tags = [];
         foreach($tags as $tag) {
+            // $tag->parentNode->removeChild($tag);
+            $_tags[] = $tag;
+        }
+
+        foreach($_tags as $tag) {
             $tag->parentNode->removeChild($tag);
         }
     }
 
 
-    $article = $domdoc->saveHTML($body);
+    foreach($stripped_tags as $tag) {
+        $tags = $domdoc->getElementsByTagName($tag);
+        foreach($tags as $tag) {
+            $tag->parentNode->removeChild($tag);
+        }
+    }
+
+    // $body = $domdoc->getElementsByTagName('body')->item(0);
+    // $article = $domdoc->saveHTML($body);
+    $article = $domdoc->saveHTML();
+
+    file_put_contents("test2.html", $article);
 
     $title = "<a href={$url}>{$url}</a>";
     $output = $html->output($title . $article);
