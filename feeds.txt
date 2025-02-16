@@ -1,2 +1,0 @@
-http://rss.slashdot.org/Slashdot/slashdot
-https://news.ycombinator.com/rss
