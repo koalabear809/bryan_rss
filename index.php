@@ -16,6 +16,8 @@ $html->navlinks = $navlinks;
 
 $params = parse_url($uri);
 
+$output = '';
+
 if($params['path'] === "/") {
     //- home
     echo $html->output('');
@@ -51,9 +53,7 @@ if($params['path'] === "/") {
     //- Form to add feed
     $form = $html->add_feed_form();
 
-    if(isset($output)) {
-        $form .= $output;
-    }
+    $form .= $output;
 
     $output = $html->output($output);
 
