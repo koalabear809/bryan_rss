@@ -35,6 +35,10 @@ if($params['path'] === "/") {
 
         $filename = "cache/{$title}.json";
 
+        if(!file_exists("cache")) {
+            mkdir("cache");
+        }
+
         if(file_exists($filename)) {
             unlink($filename);
         }
