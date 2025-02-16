@@ -90,6 +90,11 @@ class Html {
             padding: 10px;
         }
 
+        img {
+            max-width: 300px;
+            max-height: 300px;
+        }
+
         .navlink {
             padding: 10px;
             margin: 10px;
