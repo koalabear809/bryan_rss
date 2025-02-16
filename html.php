@@ -61,7 +61,11 @@ class Html {
     public function rss_link($title) {
         $titleurl = urlencode($title);
         $output = <<<HTML
-        <a href="/feed?name={$titleurl}">$title</a>
+        <a href="/feed?name={$titleurl}">
+            <div class="rss-link">
+                $title
+            </div>
+        </a>
         HTML;
 
         return $output;
@@ -95,16 +99,47 @@ class Html {
             max-height: 300px;
         }
 
-        .navlink {
+        nav {
+            display: flex;
+            background-color: #333;
+            color: #fff;
+        }
+
+        button {
             padding: 10px;
-            margin: 10px;
-            background-color: #f0f0f0;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        input {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .navlink {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
             text-decoration: none;
-            color: #333;
+            color: white;
+        }
+
+        .navlink:hover {
+            background-color: #555;
         }
 
         .rss-item {
             margin: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .rss-link {
             padding: 10px;
             border-bottom: 1px solid #ccc;
         }
