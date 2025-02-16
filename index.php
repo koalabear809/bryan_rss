@@ -53,9 +53,7 @@ if($params['path'] === "/") {
     //- Form to add feed
     $form = $html->add_feed_form();
 
-    $form .= $output;
-
-    $output = $html->output($output);
+    $output = $html->output($form);
 
 } else if ($params['path'] === "/feed") {
     if(isset($_GET['name'])) {
