@@ -147,6 +147,7 @@ $routes = [
             }
 
             $article = $domdoc->saveHTML();
+            $article = $html->article($article);
         }
         $title = "<br><a class=\"rss-item\" href={$url}>{$url}</a>";
         return $title . $article;

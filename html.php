@@ -82,6 +82,16 @@ class Html {
         return $output;
     }
 
+    public function article($article) {
+        $output = <<<HTML
+        <div class="article-wrapper">
+            $article
+        </div>
+        HTML;
+
+        return $output;
+    }
+
     private function css() {
         $output = <<<CSS
         body {
@@ -148,6 +158,10 @@ class Html {
             margin: 10px;
             border-bottom: 1px solid #ccc;
             color: #333;
+        }
+
+        .article-wrapper {
+            width: 80%;
         }
         CSS;
 
