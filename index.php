@@ -122,7 +122,6 @@ $routes = [
                 'noscript',
                 'nav',
                 'img',
-                'a',
                 'footer',
                 'link',
                 'iframe',
