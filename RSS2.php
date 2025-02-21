@@ -56,6 +56,8 @@ class RSS2 implements IRSS{
                 return (string) $val;
             }
         }
+
+        return false;
     }
 
     public function get_xml_string() {

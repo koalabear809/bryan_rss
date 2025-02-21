@@ -58,12 +58,11 @@ class Html {
         return $output;
     }
 
-    public function rss_link($title) {
-        $titleurl = urlencode($title);
+    public function rss_link($id, $name) {
         $output = <<<HTML
-        <a href="/feed?name={$titleurl}">
+        <a href="/feed?id={$id}">
             <div class="rss-link">
-                $title
+                $name
             </div>
         </a>
         HTML;
@@ -73,8 +72,9 @@ class Html {
 
     public function add_feed_form() {
         $output = <<<HTML
-        <form action="/add" method="post">
-            <input type="text" name="feed" placeholder="Enter RSS feed URL">
+        <form action="/configure" method="post">
+            <input type="text" name="add" placeholder="Enter RSS feed URL">
+            <input type="text" name="name" placeholder="Enter Feed Name">
             <button type="submit">Add</button>
         </form>
         HTML;
@@ -87,6 +87,23 @@ class Html {
         <div class="article-wrapper">
             $article
         </div>
+        HTML;
+
+        return $output;
+    }
+
+    public function configure_feed($name, $url, $id) {
+        $output = <<<HTML
+        <h2> Configure feed {$id} </h2>
+        <form class="configure-form" action="/update" method="post">
+            <input type="text" name="name" value="{$name}"><br>
+            <input type="text" name="url" value="{$url}"><br>
+            <input type="hidden" name="id" value="{$id}">
+            <button type="submit">Update</button>
+        </form>
+        <br>
+        <br>
+        <a href="/delete?id={$id}"><button class="danger">Delete</button></a>
         HTML;
 
         return $output;
@@ -162,6 +179,14 @@ class Html {
 
         .article-wrapper {
             width: 80%;
+        }
+
+        .configure-form input {
+            margin-bottom: 10px;
+        }
+
+        .danger {
+            background-color:rgb(167, 0, 0);
         }
         CSS;
 
