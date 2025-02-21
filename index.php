@@ -76,6 +76,9 @@ $routes = [
                 $feeds_config_section[] = "<a href=\"/configure?feed={$id}\"><button>configure</button></a> {$name}";
             }
 
+            if(!isset($output)) {
+                $output = '';
+            }
             return $output . $form . "<br><br>" . implode("<br><br>", $feeds_config_section);
         }
     },
