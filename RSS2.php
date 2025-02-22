@@ -45,6 +45,11 @@ class RSS2 implements IRSS{
     }
 
     public function set_attribute($key, $value) {
+
+        if($value === null) {
+            throw new Exception("Value cannot be null for key: {$key}");
+        }
+
         //- if attribute exists, update it
         $attributes = $this->xml->attributes();
 

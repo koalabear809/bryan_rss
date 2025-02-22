@@ -87,7 +87,7 @@ $routes = [
             $rss = get_rss_by_id($id);
             $feed = new Feed($rss);
 
-            $last_refresh = $feed->get_feed['last_refresh'];
+            $last_refresh = $feed->get_feed()['last_refresh'];
             if($last_refresh < time() - 3600) {
                 $feed->refresh();
             }

@@ -76,6 +76,7 @@ class Feed {
         //- get feed
         $url = $this->rss->get_attribute('url');
         $name = $this->rss->get_attribute('name');
+        $id = $this->rss->get_attribute('id');
         $contents = file_get_contents($url);
         if($contents === false) {
             throw new Exception("Could not fetch feed");
@@ -84,7 +85,7 @@ class Feed {
         $this->rss = $this->get_rss($contents);
         $this->rss->set_attribute('url', $url);
         $this->rss->set_attribute('name', $name);
-        $this->rss->set_attribute('id', $this->id);
+        $this->rss->set_attribute('id', $id);
         $this->rss->set_attribute('last_refresh', time());
         $this->save_feed();
     }
