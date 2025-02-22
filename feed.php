@@ -3,34 +3,26 @@
 include_once("IRSS.php");
 
 class Feed {
-    private $id;
     private $rss;
 
-    public function __construct(string $id = null) {
+    public function __construct(IRSS $rss) {
         //- read feed
-        if($id !== null) {
-            $this->id = $id;
-            $xmlstring = file_get_contents("cache/{$this->id}.xml");
-            $this->rss = $this->get_rss($xmlstring);
-        }
+        // if($id !== null) {
+        //     $this->id = $id;
+        //     $xmlstring = file_get_contents("cache/{$this->id}.xml");
+        //     $this->rss = $this->get_rss($xmlstring);
+        // }
+        $this->rss = $rss;
     }
 
     public function add_feed(string $url, string $name = null) {
-        //- get feed
-        $contents = file_get_contents($url);
-        if($contents === false) {
-            throw new Exception("Could not fetch feed");
-        }
-
         if(!file_exists("cache")) {
             mkdir("cache");
         }
 
-        $this->id = uniqid();
-        $this->rss = $this->get_rss($contents);
         $this->rss->set_attribute('url', $url);
         $this->rss->set_attribute('name', $name);
-        $this->rss->set_attribute('id', $this->id);
+        $this->rss->set_attribute('id', uniqid());
         $this->rss->set_attribute('last_refresh', time());
 
         $this->save_feed();
@@ -55,10 +47,14 @@ class Feed {
     }
 
     public function get_feed() {
+        $name = $this->rss->get_attribute('name');
+        if($name === false) {
+            $name = $this->rss->get_title();
+        }
         return [
             'id' => $this->rss->get_attribute('id'),
             'title'=> $this->rss->get_attribute('title'),
-            'name' => $this->rss->get_attribute('name'),
+            'name' => $name,
             'url' => $this->rss->get_attribute('url'),
             'last_refresh' => $this->rss->get_attribute('last_refresh'),
         ];

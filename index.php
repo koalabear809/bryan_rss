@@ -3,6 +3,7 @@
 include("html.php");
 include("RSS1.php");
 include("RSS2.php");
+include("feed.php");
 
 $uri = $_SERVER['REQUEST_URI'];
 
@@ -26,14 +27,16 @@ $routes = [
     '/configure' => function() use ($html) {
         if(isset($_REQUEST['feed'])) {
             $feed_id = $_REQUEST['feed'];
-            $feed = new Feed($feed_id);
+            $rss = get_rss_by_id($feed_id);
+            $feed = new Feed($rss);
             return $html->configure_feed($feed);
         } else {
             if(isset($_POST['add']) > 0) {
                 $url = trim($_POST['add']);
                 $name = trim($_POST['name']);
 
-                $feed = new Feed();
+                $rss = get_rss_by_url($url);
+                $feed = new Feed($rss);
                 $feed->add_feed($url, $name);
             }
 
@@ -45,7 +48,8 @@ $routes = [
             $feeds_config_section = [];
             foreach($feeds as $feed) {
                 $id = basename($feed, '.xml');
-                $feed = new Feed($id);
+                $rss = get_rss_by_id($id);
+                $feed = new Feed($rss);
                 $feed = $feed->get_feed();
                 $feeds_config_section[] = "<a href=\"/configure?feed={$feed['id']}\"><button>configure</button></a> {$feed['name']}";
             }
@@ -58,8 +62,11 @@ $routes = [
     },
     '/delete' => function() use ($html) {
         $id = $_GET['id'];
-        $feed = new Feed($id);
-        $feed->delete_feed();
+        $rss = get_rss_by_id($id);
+        $feed = new Feed($rss);
+        $feed->delete();
+
+        header('Location: /configure');
         
     },
     '/update' => function() use ($html) {
@@ -67,7 +74,8 @@ $routes = [
         $url = $_POST['url'];
         $id = $_POST['id'];
 
-        $feed = new Feed($id);
+        $rss = get_rss_by_id($id);
+        $feed = new Feed($rss);
         $feed->update_feed(['name' => $name, 'url' => $url]);
 
         header('Location: /configure');
@@ -75,14 +83,15 @@ $routes = [
     '/feed' => function() use ($html) {
         if(isset($_GET['id'])) {
             $id = $_GET['id'];
-            $feed = new Feed($id);
+
+            $rss = get_rss_by_id($id);
+            $feed = new Feed($rss);
 
             $last_refresh = $feed->get_feed['last_refresh'];
             if($last_refresh < time() - 3600) {
                 $feed->refresh();
             }
 
-            // $items = $rss->get_items();
             $articles = $feed->get_articles();
 
             $list = [];
@@ -101,7 +110,8 @@ $routes = [
             $list = [];
             foreach ($feeds as $feed) {
                 $id = basename($feed, '.xml');
-                $feed = new Feed($id);
+                $rss = get_rss_by_id($id);
+                $feed = new Feed($rss);
                 $name = $feed->get_feed()['name'];
                 $list[] = $html->rss_link($id, $name);
             }
@@ -167,12 +177,22 @@ if(isset($routes[$params['path']])) {
 
 echo $output;
 
-// function get_rss($xmlstring) {
-//     $rss = new RSS2($xmlstring);
+function get_rss($xmlstring) {
+    $rss = new RSS2($xmlstring);
 
-//     if(!$rss->validate()) {
-//         $rss = new RSS1($xmlstring);
-//     }
+    if(!$rss->validate()) {
+        $rss = new RSS1($xmlstring);
+    }
 
-//     return $rss;
-// }
+    return $rss;
+}
+
+function get_rss_by_id($id) {
+    $content = file_get_contents("cache/{$id}.xml");
+    return get_rss($content);
+}
+
+function get_rss_by_url($url) {
+    $content = file_get_contents($url);
+    return get_rss($content);
+}

@@ -45,7 +45,22 @@ class RSS2 implements IRSS{
     }
 
     public function set_attribute($key, $value) {
-        $this->xml->addAttribute($key, $value);
+        //- if attribute exists, update it
+        $attributes = $this->xml->attributes();
+
+        $found = false;
+        foreach($attributes as $att_key => $val) {
+            if($att_key === $key) {
+                $found = true;
+                break;
+            }
+        }
+
+        if($found) {
+            $this->xml->attributes()->$key = $value;
+        } else {
+            $this->xml->addAttribute($key, $value);
+        }
     }
 
     public function get_attribute($key) {
