@@ -92,7 +92,11 @@ class Html {
         return $output;
     }
 
-    public function configure_feed($name, $url, $id) {
+    public function configure_feed(feed $feed) {
+        $feed = $feed->get_feed();
+        $id = $feed['id'];
+        $name = $feed['name'];
+        $url = $feed['url'];
         $output = <<<HTML
         <h2> Configure feed {$id} </h2>
         <form class="configure-form" action="/update" method="post">

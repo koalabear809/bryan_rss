@@ -20,60 +20,34 @@ $output = '';
 
 $routes = [
     '/' => function() {
+        //- TODO: Show newest articles from all feeds
         return '';
     },
     '/configure' => function() use ($html) {
         if(isset($_REQUEST['feed'])) {
-            //- get feed
             $feed_id = $_REQUEST['feed'];
-            $contents = file_get_contents("cache/{$feed_id}.xml");
-            $rss = get_rss($contents);
-            $name = $rss->get_attribute('name');
-            if($name === false) {
-                $name = $rss->get_title();
-            }
-            $url = $rss->get_attribute('url');
-            $id = $rss->get_attribute('id');
-
-            return $html->configure_feed($name, $url, $id);
+            $feed = new Feed($feed_id);
+            return $html->configure_feed($feed);
         } else {
             if(isset($_POST['add']) > 0) {
-                $feed = $_POST['add'];
-                $feed = trim($feed);
+                $url = trim($_POST['add']);
+                $name = trim($_POST['name']);
 
-                //- get feed
-                $contents = file_get_contents($feed);
-
-                $rss = get_rss($contents);
-                $title = $rss->get_title();
-
-                $rss->set_attribute('url', $feed);
-                $rss->set_attribute('name', $_POST['name']);
-                $rss->set_attribute('last_refresh', time());
-
-                if(!file_exists("cache")) {
-                    mkdir("cache");
-                }
-
-                store_feed($rss);
+                $feed = new Feed();
+                $feed->add_feed($url, $name);
             }
 
             //- Form to add feed
             $form = $html->add_feed_form();
 
             //- Form to manage feeds
-            $feeds = glob("cache/*.xml");
+            $feeds = Feed::list_feeds();
             $feeds_config_section = [];
             foreach($feeds as $feed) {
-                $contents = file_get_contents($feed);
-                $rss = get_rss($contents);
-
-                $id = $rss->get_attribute('id');
-                $name = $rss->get_attribute('name');
-                if($name === false) {
-                    $name = $rss->get_title();
-                }
-                $feeds_config_section[] = "<a href=\"/configure?feed={$id}\"><button>configure</button></a> {$name}";
+                $id = basename($feed, '.xml');
+                $feed = new Feed($id);
+                $feed = $feed->get_feed();
+                $feeds_config_section[] = "<a href=\"/configure?feed={$feed['id']}\"><button>configure</button></a> {$feed['name']}";
             }
 
             if(!isset($output)) {
@@ -83,82 +57,52 @@ $routes = [
         }
     },
     '/delete' => function() use ($html) {
-        $feed = $_GET['id'];
-        $filename = "cache/{$feed}.xml";
-        if(file_exists($filename)) {
-            unlink($filename);
-            return "Feed deleted: {$feed}";
-        } else {
-            return "Feed not found: {$feed}";
-        }
+        $id = $_GET['id'];
+        $feed = new Feed($id);
+        $feed->delete_feed();
+        
     },
     '/update' => function() use ($html) {
-        echo '';
-
-        //- get variables from $_POST
         $name = $_POST['name'];
         $url = $_POST['url'];
         $id = $_POST['id'];
 
-        //- get feed
-        $contents = file_get_contents("cache/{$id}.xml");
-        $rss = get_rss($contents);
-        $rss->set_attribute('name', $name);
-        $rss->set_attribute('url', $url);
-        store_feed($rss);
+        $feed = new Feed($id);
+        $feed->update_feed(['name' => $name, 'url' => $url]);
 
         header('Location: /configure');
     },
     '/feed' => function() use ($html) {
         if(isset($_GET['id'])) {
             $id = $_GET['id'];
-            $feed = "cache/{$id}.xml";
-            $feed = file_get_contents($feed);
-            $rss = get_rss($feed);
+            $feed = new Feed($id);
 
-            //- Check if we should refresh the feed, every hour
-            $last_refresh = $rss->get_attribute('last_refresh');
+            $last_refresh = $feed->get_feed['last_refresh'];
             if($last_refresh < time() - 3600) {
-                $url = $rss->get_attribute('url');
-
-                $contents = file_get_contents($url);
-
-                //- read the feed into an XML object
-                $rss = get_rss($contents);
+                $feed->refresh();
             }
 
-            $items = $rss->get_items();
+            // $items = $rss->get_items();
+            $articles = $feed->get_articles();
 
             $list = [];
-            foreach ($items as $item) {
-                $list[] = $html->rss_list_item($item['title'], $item['description'], $item['link']);
+            foreach ($articles as $article) {
+                $list[] = $html->rss_list_item($article['title'], $article['description'], $article['link']);
             }
 
             $list = implode("", $list);
 
-            $name = $rss->get_attribute('name');
-            if($name === false) {
-                $name = $rss->get_title();
-            }
-
+            $name = $feed->get_feed()['name'];
             $header = "<h1 class=\"feed-name\">{$name}</h1>";
             return $header . $list;
         } else {
-            //- feeds
-            $feeds = glob("cache/*.xml");
+            $feeds = Feed::list_feeds();
 
             $list = [];
             foreach ($feeds as $feed) {
-                $contents = file_get_contents($feed);
-                $rss = get_rss($contents);
-
-                $name = $rss->get_attribute('name');
-                if($name === false) {
-                    $name = $rss->get_title();
-                }
-
-                $id = $rss->get_attribute('id');
-
+                $id = basename($feed, '.xml');
+                $feed = new Feed($id);
+                $name = $feed->get_feed()['name'];
                 $list[] = $html->rss_link($id, $name);
             }
 
@@ -223,40 +167,12 @@ if(isset($routes[$params['path']])) {
 
 echo $output;
 
-function store_feed($rss) {
-    $rss->set_attribute('last_refresh', time());
+// function get_rss($xmlstring) {
+//     $rss = new RSS2($xmlstring);
 
-    $output = $rss->get_xml_string();
-    $id = $rss->get_attribute('id');
-    return file_put_contents("cache/{$id}.xml", $output);
-}
+//     if(!$rss->validate()) {
+//         $rss = new RSS1($xmlstring);
+//     }
 
-function get_rss($xmlstring) {
-    $rss = new RSS2($xmlstring);
-
-    if(!$rss->validate()) {
-        $rss = new RSS1($xmlstring);
-    }
-
-    //- check if there is an id
-    $id = $rss->get_attribute('id');
-    if($id === false) {
-        $rss->set_attribute('id', uniqid());
-        
-        //- save the feed
-        store_feed($rss);
-    }
-
-    //- Check if we should refresh the feed
-    // $last_refresh = $rss->get_attribute('last_refresh');
-    // if($last_refresh < time() - 3600) {
-    //     $url = $rss->get_attribute('url');
-
-    //     $contents = file_get_contents($url);
-
-    //     //- read the feed into an XML object
-    //     $rss = get_rss($contents);
-    // }
-
-    return $rss;
-}
+//     return $rss;
+// }
